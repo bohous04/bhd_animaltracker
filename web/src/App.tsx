@@ -7,7 +7,7 @@ import { useVisibility } from "./providers/VisibilityProvider"
 debugData([
   {
     action: "setVisible",
-    data: JSON.stringify({ visibility: true, allAnimals: debugAnimals }),
+    data: { visibility: true, allAnimals: debugAnimals },
   },
 ])
 
